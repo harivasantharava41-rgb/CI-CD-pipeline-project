@@ -1,36 +1,80 @@
-# CI-CD-pipeline-project
-CI/CD Pipeline Automation using Jenkins, Maven, SonarQube, Docker and Tomcat. Automated build and deployment pipeline for Java web application on Linux environment.
 
-# CI/CD Pipeline Automation using Jenkins and Maven
+<div align="center">
 
-## Project Overview
-A complete CI/CD pipeline that automates the build,
-test, code quality check, and deployment of a 
-Java web application.
+# 🚀 CI/CD Pipeline Automation
 
-## Pipeline Flow
+### Automated Build & Deployment Pipeline for Java Web Applications
+
+
+
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+
+
+
+
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+
+
+
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+
+
+
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+
+
+
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+
+
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+
+
+</div>
+
+---
+
+## 📌 Project Overview
+A complete CI/CD pipeline that automates the build, test,
+code quality check, and deployment of a Java web application.
+
+---
+
+## 🔄 Pipeline Flow
 GitHub → Jenkins → Maven Build → SonarQube → Docker → Tomcat
+---
 
-## Tech Stack
+## 🛠️ Tech Stack
 | Tool | Purpose |
 |------|---------|
-| GitHub | Source code version control |
-| Jenkins | CI/CD automation and orchestration |
-| Maven | Build tool and dependency management |
-| SonarQube | Code quality and security analysis |
-| Docker | Application containerization |
-| Apache Tomcat | Web application server |
-| Linux Ubuntu | Host operating system |
+| ⚙️ Jenkins | CI/CD automation and orchestration |
+| 📦 Maven | Build tool and dependency management |
+| 🔍 SonarQube | Code quality and security analysis |
+| 🐳 Docker | Application containerization |
+| 🚀 Tomcat | Web application server |
+| 🐙 GitHub | Source code version control |
+| 🐧 Linux | Host operating system |
 
-## Project Structure
-cicd-pipeline-project/
-├── Jenkinsfile
-├── Dockerfile
-├── pom.xml
-├── src/main/java/com/harivasanth/
-│   └── HelloServlet.java
+---
+
+## 📁 Project Structure
+CI-CD-pipeline-project/
+├── Jenkinsfile        # Pipeline definition
+├── Dockerfile         # Docker image config
+├── pom.xml            # Maven build config
+├── src/
+│   └── main/java/com/harivasanth/
+│       └── HelloServlet.java
 └── README.md
-## How to Run
+---
+
+## 🚀 How to Run
 ### Prerequisites
 - Jenkins installed and running
 - Maven configured in Jenkins
@@ -42,16 +86,13 @@ cicd-pipeline-project/
 2. Create new Jenkins pipeline job
 3. Point it to this repository
 4. Jenkins runs Jenkinsfile automatically
-5. App accessible at http://localhost:8090
+5. App accessible at `http://localhost:8090`
 
-## Author
+---
+
+## 👨‍💻 Author
 **Harivasanth Arava**
-- MCA Cloud Computing — Jain University, Bengaluru
-- Email: hariarava41@gmail.com
-- LinkedIn: linkedin.com/in/harivasanth
 
-Author
-Harivasanth Arava
-MCA Cloud Computing — Jain University, Bengaluru
-Email: hariarava41@gmail.com
-LinkedIn: linkedin.com/in/harivasanth-arava
+📧 hariarava41@gmail.com
+🔗 [LinkedIn](https://linkedin.com/in/harivasanth-arava)
+🎓 MCA Cloud Computing — Jain University, Bengaluru
