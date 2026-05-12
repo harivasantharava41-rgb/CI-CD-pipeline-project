@@ -1,4 +1,5 @@
- Added Jenkinsfile with 4 pipeline stages
+Updated SonarQube configuration
+Added Jenkinsfile with 4 pipeline stages
 <div align="center">
 
 # 🚀 CI/CD Pipeline Automation
